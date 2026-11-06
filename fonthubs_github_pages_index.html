@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FontHubs — Free Fonts for the Web</title>
+<meta name="description" content="FontHubs offers free downloadable fonts for websites and design work, in standard web formats with clear licence information.">
+<style>
+  body { font-family: Georgia, 'Times New Roman', serif; max-width: 720px; margin: 0 auto; padding: 2rem 1.25rem; line-height: 1.65; color: #1a1a1a; }
+  h1 { font-size: 2rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.35rem; margin-top: 2rem; }
+  p.lede { font-size: 1.1rem; color: #444; }
+  a { color: #1a4fd6; }
+  ul { padding-left: 1.25rem; }
+  li { margin: .4rem 0; }
+  footer { margin-top: 3rem; border-top: 1px solid #ddd; padding-top: 1rem; color: #666; font-size: .9rem; }
+  code { background: #f4f4f4; padding: .1rem .3rem; border-radius: 3px; }
+</style>
+</head>
+<body>
+<h1>FontHubs</h1>
+<p class="lede">Free fonts for the web, ready to download and use. Every family on <a href="https://fonthubs.com">FontHubs</a> comes in standard web formats with clear licence information, so you can self-host instead of linking to a font service.</p>
+
+<h2>Browse the collection</h2>
+<p>The full catalogue lives on the main site:</p>
+<ul>
+  <li><a href="https://fonthubs.com/fonts">Browse all free fonts</a> — the complete FontHubs library</li>
+  <li><a href="https://fonthubs.com">FontHubs home</a> — featured families and new additions</li>
+</ul>
+
+<h2>Three things to check before you download a font</h2>
+<p><strong>1. The licence.</strong> “Free” can mean free for personal use, free for commercial use, or free with conditions such as attribution. Read the licence on the font's page before you use it in a client project. A font that is free to download is not automatically free to use everywhere.</p>
+<p><strong>2. The format.</strong> For the web, WOFF2 is the smallest and best-supported modern format. TTF and OTF are fine for desktop use and as fallbacks. If a family offers WOFF2, use it as your first choice and keep the others only if you need them.</p>
+<p><strong>3. The weights you actually need.</strong> Each weight is another file your visitors download. Start with regular and bold; add light or black weights only when the design genuinely needs them. A variable font can cover the whole range in a single file.</p>
+
+<h2>Self-hosting in brief</h2>
+<p>To self-host a font, download the files, put them in your project, and declare them with <code>@font-face</code> in your CSS, pointing <code>src</code> at the WOFF2 file first. That keeps your pages independent of third-party font services and avoids an extra network request on every visit.</p>
+
+<footer>
+  <p>This page is a companion to <a href="https://fonthubs.com">fonthubs.com</a>, where the fonts themselves live. Font files and licences are on the main site.</p>
+</footer>
+</body>
+</html>
